@@ -1,0 +1,45 @@
+a)
+  $ git commit
+  [master 4084bd1] Add output of git status command to status.txt
+  1 file changed, 4 insertions(+)
+
+  $ git push origin master
+  Counting objects: 4, done.
+  Delta compression using up to 4 threads.
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (4/4), 417 bytes | 417.00 KiB/s, done.
+  Total 4 (delta 1), reused 0 (delta 0)
+  remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+  To https://github.com/tjc15b/Assignment1.git
+    427392d..4084bd1  master -> master
+
+b)
+  9 commits total. 'git rev-list --all --count' was the command I used.
+
+c)
+  Date:   Wed Sep 27 16:31:42 2017 -0500
+  I used the command 'git log .gitignore'
+
+d)
+  cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+  36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+e)
+  You can keep the master branch free from unstable code, as long as you create a new branch and keep the commits in it separate before merging.
+  You can also keep the history of your changes more concise and clear with branches before you merge them.
+
+f)
+  git status shows you the working directory and the staging area, and git log shows you all the committed history.
+
+g)
+  git log --follow Weapon.h
+
+h)
+  git log --all --grep='file'
+
+i)
+  In Object Oriented Programming, inheritance is what allows objects to take on properties and characteristics of other, already existing objects.
+  Polymorphism is a feature of Object Oriented Programming, it means that the language can process objects differently based on their class, or if they're a variable or function, give them different usages in different contexts.
+  Encapsulation in Object Oriented Programming is what keeps data safe that you want to keep safe and hidden. For example you can have data that can only be changed by an object's own methods, and that is encapsulation.
+
+  
