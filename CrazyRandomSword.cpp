@@ -4,7 +4,7 @@
 double CrazyRandomSword::hit(double armor){
     double damage = hitPoints - armor;
 
-    double randnum = fmod(rand(),((armor/2) + 1));
+    double randnum = fmod(rand(),(armor/2));
     damage += randnum;
 
     if(damage < 0)
