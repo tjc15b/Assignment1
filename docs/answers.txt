@@ -42,7 +42,7 @@ i)
   Polymorphism is a feature of Object Oriented Programming, it means that the language can process objects differently based on their class, or if they're a variable or function, give them different usages in different contexts.
   Encapsulation in Object Oriented Programming is what keeps data safe that you want to keep safe and hidden. For example you can have data that can only be changed by an object's own methods, and that is encapsulation.
 
-
+7.
   Is the RoleGame prototype using polymorphism or encapsulation? If you find that
   the prototype is using any of these two OOP principles, please discuss in which way the
   prototype is using it.
