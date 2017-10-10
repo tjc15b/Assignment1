@@ -1,11 +1,7 @@
 #include "Weapon.h"
 #include <string>
 #include <cstdlib>
-
-double randomNum(){
-  double randNum = rand()%(100-10 + 1) + 10;
-  return randNum;
-}
+#include <ctime>
 
 #ifndef CRAZYRANDOMSWORD_H
 #define CRAZYRANDOMSWORD_H
@@ -16,6 +12,11 @@ public:
   virtual ~CrazyRandomSword(){};
   virtual double hit(double armor);
 
+  double randomNum(){
+    srand(time(NULL));
+    double randNum = rand()%(100-10 + 1) + 10;
+    return randNum;
+  }
 };
 
 #endif
