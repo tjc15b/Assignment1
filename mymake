@@ -32,7 +32,7 @@ $(BUILD_DIR)/CommonSpear.o: $(BUILD_DIR) $(BUILD_DIR)/Weapon.o CommonSpear.cpp C
 $(BUILD_DIR)/SimpleAxe.o: $(BUILD_DIR) $(BUILD_DIR)/Weapon.o SimpleAxe.cpp SimpleAxe.h
 	$(CXX) $(CXXFLAGS) -c -o $@ SimpleAxe.cpp
 
-$(BUILD_DIR)/CrazyRandomSwordr.o: $(BUILD_DIR) $(BUILD_DIR)/Weapon.o CrazyRandomSword.cpp CrazyRandomSword.h
+$(BUILD_DIR)/CrazyRandomSword.o: $(BUILD_DIR) $(BUILD_DIR)/Weapon.o CrazyRandomSword.cpp CrazyRandomSword.h
 	$(CXX) $(CXXFLAGS) -c -o $@ CrazyRandomSword.cpp
 
 $(BUILD_DIR)/StrongHammer.o: $(BUILD_DIR) $(BUILD_DIR)/Weapon.o StrongHammer.cpp StrongHammer.h
